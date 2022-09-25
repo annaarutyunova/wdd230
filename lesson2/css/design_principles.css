@@ -1,0 +1,72 @@
+/* main css, phone size */
+
+body{
+    margin: 0 auto;
+    background-color: rgb(242, 240, 238);
+}
+
+main{
+    display:grid;
+    grid-template-columns:1fr;
+}
+
+img{
+    /* display:block; */
+    width:auto;
+    margin:auto;
+}
+
+body h1, h2{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+div{
+    padding: 20px;
+    margin-bottom: 20px;
+    /* text-align:center; */
+}
+/* div div{
+    width:90%;
+    margin:auto;
+} */
+
+
+div h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+div p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+/* section{
+    background-color: beige;
+} */
+
+
+h3, p{
+    font-size: 1.3em;
+}
+
+
+/* medium, tablet  */
+@media only screen and (min-width:750px){
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+    .colors{
+        grid-template-columns: 1-3;
+    }
+}
+
+/* large, computer screen */
+@media only screen and (min-width: 1300px){
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
