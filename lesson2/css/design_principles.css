@@ -5,6 +5,32 @@ body{
     background-color: rgb(242, 240, 238);
 }
 
+header{
+    display:flex;
+    margin: 0 auto;
+    background-color: #3874ac;
+    color: white;
+    border-radius: 10px;
+    /* font-family: 'Roboto'; */
+}
+
+header div{
+    align-content: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+
+header h1, h2{
+    text-align: center;
+    align-self: center;
+    font-size:3vw;
+    font-size: 2.7vmin;
+    margin:3px
+}
+
+
 main{
     display:grid;
     grid-template-columns:1fr;
@@ -13,14 +39,15 @@ main{
 img{
     /* display:block; */
     width:100%;
+    max-height:1200px;
     margin:auto;
 }
 
-body h1, h2{
+/* body h1, h2{
     text-align:center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-}
+} */
 
 
 div{
@@ -51,6 +78,18 @@ div p{
 
 h3, p{
     font-size: 1.3em;
+}
+
+footer{
+    display:flex;
+    background-color: #3874ac;
+    border-radius: 10px;
+    /* font-family: 'Roboto'; */
+}
+
+footer div{
+    margin:auto;
+    text-align: center;
 }
 
 
