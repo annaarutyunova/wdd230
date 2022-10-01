@@ -29,11 +29,6 @@ nav a:hover{
     border-bottom:none;
 }
 
-#myVideo{
-    width:100%;
-    /* margin-left:-20px; */
-}
-
 .home_page_video {
     justify-self: center;
     display:grid;
@@ -41,24 +36,28 @@ nav a:hover{
     margin-top: 50px;
 }
 
-.text {
-    align-items:center;
+.home_grid {
+    display:grid;
+    grid-template-columns: 1fr;
     /* border: 3px solid #001F3F; */
     color:#001F3F;
     margin:0
 }
-.text h3{
+
+.bold{
     padding:10px;
-    color:001F3F;
-    margin:0
-}
-.text p{
-    padding-left:10px;
-    padding-right:10px;
-    color:001F3F;
+    margin:0;
+    font-weight: 700;
 }
 
-#myVideo {
+.home_grid p{
+    padding-left:10px;
+    padding-right:10px;
+    color: rgb(0,31,63);
+}
+
+/* <video> tag */
+#myVideo{  
     object-fit: cover;
     object-position: top;
     width:100%;
@@ -69,6 +68,21 @@ nav a:hover{
 #logopic{
     width:200px;
 }
+
+
+footer{
+    display:flex;
+    background-color: rgb(0,31,63, 0.2);
+    color: rgb(0,31,63);
+    font-size:0.6em;
+}
+
+footer div{
+    margin:auto;
+    text-align: center;
+}
+
+
 
 /* medium screen */
 @media only screen and (min-width:750px){
@@ -92,11 +106,16 @@ nav a:hover{
         margin:0 auto;  
     }
 
-    .text p, h3{
-        font-size:2em;
+    .home_grid p, h3{
+        font-size:1.6em;
     }
-    .text{
+    .home_grid{
+        grid-template-columns: 1fr 1fr;
         margin: auto
+    }
+
+    .home_grid_left{
+        align-self: top;
     }
     
     #myVideo {
@@ -105,6 +124,10 @@ nav a:hover{
         width:100%;
         margin:auto;
         
+    }
+
+    footer{
+        font-size: 1.3em;
     }
     
 }

@@ -8,7 +8,7 @@
     <title>Chamber of Commerce</title>
 </head>
 <body>
-    <main>
+
     <header id="home_page_header">
         <nav>
             <a id='logo_link' href='index.html'>
@@ -21,26 +21,36 @@
         
         </nav>
     </header>
-    <div id="home_page_video">
-        <video autoplay muted loop id="myVideo">
-            <source src="./images/Pexels Videos 2282013.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div class="text">
-        <h3>Site name</h3>
-        <p>Salt Lake Chamber of Commerce</p>
-        <h3>Site Purpose</h3>
-        <p>The Salt Lake Chamber serves as Utah’s premier business leader by supporting statewide prosperity. Established in 1887, the Chamber is Utah’s largest and longest-serving business association and exists to keep Utah prosperous through economic and civic progress. We promote a positive economic climate through member services and business advocacy.
+    <main>
+        <div id="home_page_video">
+            <video autoplay muted loop id="myVideo">
+                <source src="./images/Pexels Videos 2282013.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="home_grid">
+            <div class="home_grid_left">
+                <p class="bold">Site name</p>
+                <p>Salt Lake Chamber of Commerce</p>
+                <p class="bold">Domain Name</p>
+                <p>saltlc.com</p>
+                <p class="bold">Logo</p>
+                <img id='logopic' src="./images/Low Resolution Logo - Transparent Background.png" alt="logo">
+            </div>
+            <div class="home_grid_right">
+                <p class="bold">Site Purpose</p>
+                <p>The Salt Lake Chamber serves as Utah’s premier business leader by supporting statewide prosperity. Established in 1887, the Chamber is Utah’s largest and longest-serving business association and exists to keep Utah prosperous through economic and civic progress. We promote a positive economic climate through member services and business advocacy.
 
-            Our Vision – Serve as Utah’s premier business leader by supporting statewide prosperity.
-            
-            Our Mission – We stand as the voice of business, support our members’ success, and champion community prosperity.</p>
-        <h3>Domain Name</h3>
-        <p>saltlc.com</p>
-        <h3>Logo</h3>
-        <img id='logopic' src="./images/Low Resolution Logo - Transparent Background.png" alt="logo">
-        
-    </div>
+                    Our Vision – Serve as Utah’s premier business leader by supporting statewide prosperity.
+                    
+                    Our Mission – We stand as the voice of business, support our members’ success, and champion community prosperity.</p>
+            </div>
+        </div>
     </main>
+        <footer>
+            <div><p><span class="year"></span> | Anna Arutyunova | Rexburg</p>
+            <!-- Javascript goes in <span> -->
+            <p>Last Updated: <span class="modified"></span></p> </div>
+        </footer>
+    <script src="js/chamber.js"></script>
 </body>
 </html>
