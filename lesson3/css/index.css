@@ -168,9 +168,6 @@ footer div{
         margin: auto
     }
 
-    .home_grid_left{
-        align-self: top;
-    }
     
     #myVideo {
         object-fit: cover;
