@@ -123,6 +123,17 @@ footer div{
 }
 
 
+/* typography page css */
+
+#typographyb main, footer{
+    width:100%;
+}
+
+#typographyb p{
+    text-align: center;
+    line-height:2;
+}
+
 
 
 
@@ -241,6 +252,15 @@ footer div{
     display: block;
     margin: 50px auto;
    }
+
+   #typographyb{
+    width:100%;
+}
+
+    #typographyb main p{
+    text-align: center;
+    line-height:2;
+}
 
 
 }
