@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;600&display=swap');
         </style>
@@ -30,15 +32,42 @@
         </nav>
     </header>
     <main id="home-grid">
-        <div id="hero"><p>Hero with site name and call to action</p></div>
-        <div id="release"><p>New Release</p></div>
-        <div id="join"><p>Join</p></div>
-        <div id="event"><p>Event</p></div>
-        <div id="weather"><p>Weather</p></div>
+        <div id="hero">
+            <p>Hero with site name and call to action</p>
+            <picture>
+                <source srcset="./images/medium.jpg" media="(min-width: 45em)"> 
+                <source srcset="./images/large.jpg" media="(min-width: 70em)">                 
+                <img src="./images/small.jpg" alt="the city">
+            </picture>
+        </div>
+        <div id="release">
+            <p>New Release</p>
+        </div>
+        <div id="join">
+            <p>Join</p>
+            <button href="idnex.html">Join Us</button>
+        </div>
+        <div id="event">
+            <p><i class="fa-solid fa-calendar"></i>Business Women's Forum 2022</p>
+            <p id="italics">July 21</p>
+            <img src="./images/event.jpg" alt="forum">
+            <p>Building Communities Based on Trust and Self-Reliance.</p>
+        </div>
+        <div id="weather">
+            <p>Weather</p>
+            <p>Wind Speed:</p><span id="ws">km/h</span>
+            <p>Wind Chill:</p><span id="wc">N/A</span>
+        </div>
         <div id="spot">
-            <div id="spot1"><p>Spotlight1</p></div>
-            <div id="spot2"><p>Spotlight2</p></div>
-            <div id="spot3"><p>Spotlight2</p></div>
+            <div id="spot1">
+                <p>Spotlight1</p>
+            </div>
+            <div id="spot2">
+                <p>Spotlight2</p>
+            </div>
+            <div id="spot3">
+                <p>Spotlight2</p>
+            </div>
         </div>
 
     </main>
