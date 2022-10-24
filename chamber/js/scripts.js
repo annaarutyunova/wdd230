@@ -12,7 +12,28 @@ function toggleMenu(){
     document.getElementById('primaryNav').classList.toggle('open');
 }
 
- const x = document.getElementById('hamburgerBtn');
- x.onclick = toggleMenu;
+const x = document.getElementById('hamburgerBtn');
+x.onclick = toggleMenu;
+
+
+// let message = getElementById("message");
+let day = date.getDay();
+let message = document.getElementById("message");
+if(day == 1){
+    message.style.display == "block";
+    day = "Monday";
+    document.getElementById("day").textContent = day; 
+}
+else if(day == 3){
+    day = "Wednesday";
+    document.getElementById("day").textContent = day; 
+}
+else if(day ==  0 || 4 || 5 || 6){
+    
+    document.getElementById("message").style.display = "hidden"; 
+}
+
+
+
 
  
