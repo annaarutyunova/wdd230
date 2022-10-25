@@ -24,11 +24,12 @@ if(day == 1){
     day = "Monday";
     document.getElementById("day").textContent = day; 
 }
-else if(day == 3){
+else if(day == 2){
     day = "Wednesday";
     document.getElementById("day").textContent = day; 
 }
-else if(day ==  0 || 4 || 5 || 6){
+else  //if(day ==  0 || day == 3 || day == 4 || day == 5 || day == 6)//
+{
     
     document.getElementById("message").style.display = "hidden"; 
 }

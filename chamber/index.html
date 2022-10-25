@@ -17,7 +17,7 @@
 <body>
     <header id="home_page_header">
     <a id="logo_link" href="index.html">
-        <img class='logo' src='images/logo.png' alt='logo'>
+        <img class='logo' src='images/logo.webp' alt='logo'>
     </a>
     <p id="datep"><a href='index.html'>Sale Lake City Chamber of Commerce</a></p>
         <nav>
@@ -77,9 +77,12 @@
             <p>Building Communities Based on Trust and Self-Reliance.</p>
         </div>
         <div id="weather">
-            <img src="./images/weather.png">
-            <p>Wind Speed:<span id="ws">km/h</span></p>
-            <p>Wind Chill:<span id="wc">N/A</span></p>
+            <div>
+                <img src="./images/weather.png">
+                <span id="temperature">10</span>
+            </div>
+            <p>Wind Speed: <span id="ws">5</span> km/h</p>
+            <p>Wind Chill:<span id="wc"> N/A</span></p>
         </div>
         <div id="spot">
             <div id="spot1">
@@ -112,6 +115,7 @@
         </div>
        
     </footer>
+    <script src="js/windchill.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>

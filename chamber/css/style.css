@@ -3,21 +3,6 @@ body{
     background-color: rgb(0,31,63,0.08);
 }
 
-/* nav a{
-    text-decoration: none;
-    color: #001F3F;
-    font-size: 0.9em;
-    margin-right:8px;
-    font-family: 'Inter Tight', sans-serif;
-    font-weight: 600;
-
-} */
-/* 
-nav{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 
 header{
     display:flex;
@@ -74,10 +59,6 @@ nav button{
     max-width:150px;
     margin:0 auto;
     padding-left: 20px;
-
-    /* position: absolute;
-    right:20px;
-    top:auto; */
 }
 
 nav ul li.active a{
@@ -102,21 +83,6 @@ nav ul.open{
 #logo_link:hover{
     border-bottom:none;
 }
-
-/* .home_page_video {
-    justify-self: center;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
-} */
-
-/* .home_grid {
-    display:grid;
-    grid-template-columns: 1fr;
-    border: 3px solid #001F3F;
-    margin:0;
-} */
-
 
 footer{
     display:flex;
@@ -286,6 +252,7 @@ main div p{
     width:100px;
     display:block;
     margin:0 auto;
+    float:center;
 }
 
 #weather p{
@@ -314,6 +281,8 @@ main div p{
     margin-bottom: -20px;
     font-size: 1.2em;
 }
+
+
 
 /* MEDIUM SCREEN */
 
@@ -482,10 +451,6 @@ main div p{
     #home_page_header img{
         max-width:200px;
         margin:0 auto;
-        
-        /* position: absolute;
-        right:20px;
-        top:auto; */
     }
 
     nav ul li.active a{
@@ -507,7 +472,6 @@ main div p{
     #event, #join, #weather{
         grid-column: 1/2;
         grid-row: 1;
-        /* height:100%; */
         width: 100%;
         margin:0;
     }
