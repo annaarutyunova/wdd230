@@ -31,7 +31,7 @@ else if(day == 2){
 else  //if(day ==  0 || day == 3 || day == 4 || day == 5 || day == 6)//
 {
     
-    document.getElementById("message").style.display = "hidden"; 
+    document.getElementById("message").style.display = "none"; 
 }
 
 
