@@ -7,6 +7,8 @@ document.querySelector('.year').textContent = year;
 console.log(currentDate);
 console.log(year);
 document.querySelector("#datep").textContent = dateint;
+let small = document.getElementById("small");
+
 
 function toggleMenu(){
     document.getElementById('primaryNav').classList.toggle('open');
@@ -14,6 +16,11 @@ function toggleMenu(){
 
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
+
+// if(document.getElementById("primaryNav").classList.toggle = "open"){
+//     small.style.display = "none";
+// }
+
 
 
 // let message = getElementById("message");

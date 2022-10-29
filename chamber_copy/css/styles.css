@@ -25,7 +25,8 @@ body{
 }
 
 #datep{
-    background-color:#A8DADC;
+    background-color:#2B2D42;
+    color:white;
     margin:0;
     padding:5px 10px;
     margin-bottom: 10px;
@@ -59,20 +60,21 @@ nav ul li a{
     display: block;
     padding: .8em 4vw;
     text-decoration: none;
-    border-top: 1px solid black;
+    border-top: 1px solid #2B2D42;
     color:black;
-    background-color:#F1FAEE;
+    background-color:#8D99AE;
 }
 
 nav ul li.active a{
-    background-color:#1D3557;
-    color:#F1FAEE;
+    background-color:#2B2D42;
+    color:white;
 
 }
 
 nav a:hover{
-    background-color:#1D3557;
-    color:#F1FAEE
+    /* background-color:#2B2D42; */
+    color:white;
+    border-bottom: 5px solid white;
 }
 
 nav ul{
@@ -100,6 +102,8 @@ footer{
     display:flex;
     width:100%;
     margin:auto;
+    background-color: #D90429;
+    color:white;
 }
 
 footer div{
@@ -109,6 +113,7 @@ footer div{
 
 #location a{
     text-decoration: none;
+    color:white;
 }
 
 #large, #medium{
@@ -141,7 +146,7 @@ main img{
 #hero_msg{
     margin-bottom:0;
     padding:10px 5px 10px 5px;
-    background-color: #F1FAEE;
+    background-color: #EDF2F4;
     text-align: center;
 }
 
@@ -150,17 +155,48 @@ main img{
 }
 
 #release{
-    /* background-color: #1D3557;
-    color:white; */
-    background-color: #F1FAEE;
+    background-color: #EDF2F4;
     text-align: center;
-}
-
-#release h2{
-    /* padding-left:5px; */
 }
 
 #release ul li{
     list-style-type: none;
-    margin-left:-35px;
+    margin-left:-45px;
 }
+
+#join{
+    padding:5px;
+}
+
+#join h2{
+    text-align:center;
+}
+
+#joinbtn{
+    display:flex;
+    justify-content:center;
+}
+#joinbtn button{
+    background-color: #EF233C;
+    color:white;
+    border: 1px solid #2B2D42;
+}
+
+#event{
+    background-color: #EDF2F4;
+}
+
+#event div{
+    height:55%;
+    overflow: hidden;
+}
+
+#event img{
+    width:100%;
+}
+
+#event .bold, .regular{
+    text-align:center;
+}
+
+
