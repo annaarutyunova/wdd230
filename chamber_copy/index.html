@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+        </style>
+    <title>Chamber of Commerce</title>
+</head>
+<body>
+    <h1 id="datep" class="regular"><a href='index.html'></a></h1>
+    <header id="home_page_header">
+    <a id="logo_link"  href="index.html">
+        <img class='logo' src='images/logo.webp' alt='logo'>
+    </a>
+        <nav>
+            <button id="hamburgerBtn">&#9776</button>
+            <ul id="primaryNav">
+                <li class="active bold"><a href='index.html'>Home</a></li>
+                <li class="bold"><a href='audience.html'>Events & Programs</a></li>
+                <li class="bold"><a href='colors.html'>Advocate</a></li>
+                <li class="bold"><a href="typography.html">News</a></li>
+                <li class="bold"><a href="typography.html">Membership</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p id="message" class="regular">🤝🏼 Come join us for the chamber meet and greet <span id="day"></span> at 7:00 p.m.</p>
+    <main id="home-grid">
+        <div id="hero">
+            <p id="hero_msg" class="bold">We Stand as the Voice of Business, Support Our Members' Success and Champion Community Prosperity</p>
+            <p id="small" class="regular">Small</p>
+            <p id="medium" class="regular">Medium</p>
+            <p id="large" class="regular">Large</p>
+            <picture>
+                <source srcset="./images/medium.jpg" media="(min-width: 45em)"> 
+                <source srcset="./images/large.jpg" media="(min-width: 70em)">                 
+                <img src="./images/small.jpg" alt="the city">
+            </picture>
+        </div>
+        <div id="release">
+            <img src="./images/capitol.jpg" alt="capitol">
+            <h2 class="bold">Advocate Policy</h2>
+            <ul id="release1">
+                <li class="regular">Business Climate & Economy</li>
+                <li class="regular">Education & Workforce</li>
+                <li class="regular">Energy & Environment</li>
+                <li class="regular">Diversity & Inclusion</li>
+                <li class="regular">Healthcare</li>
+                <li class="regular">Housing</li>
+            </ul>
+            <ul id="release2">
+                <li class="regular">Immigration</li>
+                <li class="regular">Infrastructure & Transportation</li>
+                <li class="regular">Small Business</li>
+                <li class="regular">Taxes & Budget</li>
+                <li class="regular">Technology & Cybersecurity</li>
+            </ul>
+        </div>
+        <div id="join">
+            <p id="joinlarge" class="bold">Become a Member</p>
+            <div id="joinbtn">
+                <button id="joinbtn" class="button" href="index.html">Join Us</button>
+            </div>
+            <p class="regular">Join the Salt Lake Chamber, Utah's largest and longest-standing business association, and strengthen your business and local community! We are here for success in the long game and welcome your participation.</p id="joindmsg">
+        </div>
+        <div id="event" class="bold">
+            <p class="bold"><i class="fa-solid fa-calendar"></i>Business Women's Forum 2022</p>
+            <p id="italics">July 21</p>
+            <img src="./images/event.jpg" alt="forum">
+            <p class="regular">Building Communities Based on Trust and Self-Reliance.</p>
+        </div>
+        <div id="weather">
+            <div>
+                <img src="./images/weather.png" alt="weather icon">
+                <span id="temperature">10</span>
+            </div>
+            <p class="regular">Wind Speed: <span id="ws">5</span> km/h</p>
+            <p class="regular">Wind Chill:<span id="wc"> N/A</span></p>
+        </div>
+        <div id="spot">
+            <div id="spot1">
+                <p id="spot1lrg" class="bold">Annual Meeting</p>
+                <div id="spot1btn">
+                    <button class="button" href="index.html">Become a sponsor</button>
+                </div>
+                <p class="regular">The Salt Lake Chamber was established April 23, 1887, before Utah was even a state. Each year over 700 members of the Salt Lake Chamber join together to celebrate the Chamber’s rich history, discuss goals for the coming year and recognize individuals and companies who have influenced the past year.
+                </p>
+            </div>
+            <div id="spot2">
+                <p id="spot2lrg" class="bold">A Business Vision for Utah's Energy Future</p>
+                <img src="./images/powerlines.png" alt="powerlines">
+                <p class="regular">Utah's business community envisions an evergy future that places Utah at the center of the nation's energy transition by harmonizing environmental and economic progress to ensure a balanced low-carbon energy future that remains affordable, and sustainable.</p>
+
+            </div>
+            <div id="spot3">
+                <p class="bold">Utah's Business Diversity Summit 2022</p>
+                <p class="regular">Join us to hear from diversity professionals and learn about ways to address diversity and inclusion in Utah businesses.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p class="regular"><span class="year regular"></span> | Anna Arutyunova | Rexburg | WDD 230</p>
+        <!-- Javascript goes in <span> -->
+            <p class="regular">Last Updated: <span class="modified"></span></p>
+            <p id="location" class="regular"><a href="https://goo.gl/maps/yzTxugrDJPtVmdwHA">Location Map</a></p>
+        </div>
+    </footer>
+    <script src="js/windchill.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
