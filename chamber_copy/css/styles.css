@@ -24,6 +24,11 @@ body{
     width:fit;
 }
 
+#message{
+    text-align:center;
+    margin-bottom:0;
+}
+
 #datep{
     background-color:#2B2D42;
     color:white;
@@ -195,8 +200,21 @@ main img{
     width:100%;
 }
 
-#event .bold, .regular{
+#event h2, #event p{
     text-align:center;
 }
+
+
+#spot1{
+    text-align:center;
+    background-color:#2B2D42;
+    color:white;
+    padding:10px 0;
+}
+
+#weather img{
+    width:80px;
+}
+
 
 
