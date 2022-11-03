@@ -233,6 +233,7 @@ main img{
 
 #event img{
     width:100%;
+
 }
 
 #event h2, #event p{
@@ -244,7 +245,7 @@ main img{
     padding-top:30px;
 }
 
-#event p{
+#eventmsg{
     margin-bottom:0;
     padding-bottom:30px;
 }
@@ -361,6 +362,13 @@ main img{
         font-size:1.4em;
     }
 
+    .footer{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight:400;
+        font-size:1.2em;
+        line-height:1.4em;
+    }
+
     main{
         width:98%;
         margin:0 auto;
@@ -407,6 +415,12 @@ main img{
         grid-template-columns: 1fr 1fr;
         margin-bottom:10px;
         padding-bottom:20px;
+        box-shadow: inset;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px rgb(217, 4, 41, 0.7);
+        
+        
     }
 
 
@@ -420,6 +434,7 @@ main img{
         grid-column: 1;
         padding-left:0;
         text-align:left;
+        padding-bottom:20px;
     }
 
     #release2{
@@ -429,10 +444,6 @@ main img{
 
     #join{
         grid-column: 1;
-        box-shadow: inset;
-        border: 1px solid;
-        padding: 10px;
-        box-shadow: 5px 10px rgb(43, 45, 66);
     }
 
     /* #join:hover{
@@ -443,12 +454,6 @@ main img{
 
     #event{
         grid-column: 1;
-        background-color:transparent;
-        box-shadow: inset;
-        border: 1px solid;
-        padding: 10px;
-        box-shadow: 5px 10px rgb(43, 45, 66);
-        
     }
 
 
@@ -465,14 +470,6 @@ main img{
         grid-row:3/6;
     }
 
-    #spot1, #spot2, #spot3{
-        background-color: transparent;
-        box-shadow: inset;
-        border: 1px solid;
-        padding: 10px;
-        box-shadow: 5px 10px rgb(43, 45, 66);
-    }
-
     #spot1{
         color:black;
     }
@@ -485,7 +482,34 @@ main img{
     #join, #event, #spot1, #spot2, #spot3{
         width:90%;
         margin:0 auto;
+        background-color: transparent;
+        box-shadow: inset;
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px rgb(43, 45, 66, 0.6);
     }
+
+    footer{
+        margin-top: 15px;
+    }
+    
+
+    #weather{
+        position:absolute;
+        border:none;
+        top:340px;
+        right:0;
+        background-color: rgb(255,255,255,0.75);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:70px 40px 40px;
+        padding-left:10px;
+    }
+
+   #windspeed, #windchill{
+        display:block;
+        margin: auto 6px auto auto;
+
+   }
 
     
 }
