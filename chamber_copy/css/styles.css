@@ -122,6 +122,10 @@ footer div{
     text-align: center;
 }
 
+footer i{
+    padding-right:10px;
+}
+
 #location a{
     text-decoration: none;
     color:white;
@@ -611,10 +615,10 @@ main img{
     }
 
     nav ul li.active a{
-        /* border-bottom:5px solid #D90429; */
+        border-bottom:5px solid #8d99ae;
         background-color: transparent;
         color:black;
-        background-color: #EDF2F4;
+        background-color:white;
         /* padding-bottom:15px */
     }
     
@@ -641,7 +645,7 @@ main img{
     }
 
     #weather{
-
+        display:none;
     }
 
     #release{
