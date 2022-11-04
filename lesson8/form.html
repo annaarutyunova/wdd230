@@ -9,14 +9,42 @@
 </head>
 <body>
     <form method="get" action="thankyou.html">
-        <label for="fname">First Name *:</label>
+        <label for="fname">First Name*:</label>
         <input id="fname" type="text" name="firstname" required>
-        <label for="fname">Last Name *:</label>
+        <label for="fname">Last Name*:</label>
         <input id="fname" type="text" name="firstname" required>
-        <label for="title">Business Position Title *:</label>
-        <input required id="title" name="title">
+        <label for="title">Business Position Title* (Only letter, spaces, and dashes at least 7 characters):</label>
+        <input required id="title" name="title" pattern="[- A-Za-z]+" minlength="7">
+        <label for="email">Email:</label>
+        <input type="email" type="email" name="email" required></inputtype>
+        <label for="phone">Cell Number* :</label>;
+        <input type="phone" type="phone" name="cell" required></inputtype>
+
+        <laber id="member">Enter Your Memebership </laber>
+        <div id="radio">
+            <input type="radio" id="one" name="mlevel" value="level1">
+            <label for="one">Non Profit</label>
+
+            <input type="radio" id="two" name="mlevel" value="level2">
+            <label for="two">Bronze</label>
+
+            <input type="radio" id="three" name="mlevel" value="level3">
+            <label for="three">Silver</label>
+
+            <input type="radio" id="four" name="mlevel" value="level4">
+            <label for="four">Gold</label>
+        </div>
+
+        <label for="message">Business Description:</label>
+        <textarea id="message" placeholder="your biz description here"></textarea>
+
+        <input id="date" type="hidden" name="todaydate">
+        <input id=""> 
+
+        <input type="submit" value="Join the Chamber">
     </form>
-    <table>
+
+    <!-- <table>
         <thead>
             <tr>
                 <th colspan="2">WDD 230 Assignemnts</th>
@@ -42,6 +70,6 @@
                 <td colspan="2">A look at the next few weeks</td>
             </tfoot>
         </tbody>
-    </table>
+    </table> -->
 </body>
 </html>
