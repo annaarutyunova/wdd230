@@ -13,7 +13,7 @@ function preloadingImage(img){
     }
 
     img.src = source;
-}
+    }
 
 const io = new IntersectionObserver (
     (entries, io) => {

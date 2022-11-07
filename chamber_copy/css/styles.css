@@ -535,12 +535,7 @@ main img{
 
     #logo_link img{
         width:200px;
-    }
-
-
-
-
-    
+    }   
 }
 
 
@@ -566,10 +561,6 @@ main img{
         margin:auto;
         padding-right:50px
     }
-
-    #hero{
-    }
-
 
     #hero-msg{
         position:absolute;
@@ -633,7 +624,8 @@ main img{
         display:grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: auto;
-        gap:5;
+        column-gap:5px;
+        row-gap:10px;
     }
 
     #hero{
@@ -653,7 +645,6 @@ main img{
         border: 1px solid rgb(43, 45, 66, 0.2);
         padding: 10px;
         box-shadow: 5px 10px rgb(43, 45, 66, 0.2);
-        
     }
     
     #release1{
@@ -682,6 +673,51 @@ main img{
     #spot3{
         display:none;
     }
+
+    /* DISCOVER PAGE */
+    #discover{
+        margin-top: 20px;
+        /* margin-bottom: -40px; */
+        margin-left: 30px;
+        margin-right: 30px;
+        display:flexbox;
+        columns: 3;
+        gap: 25px;
+        /* row-gap: 100px; */
+    }
+
+    #discover img{
+        width:500px;
+        height:300px;
+        display:block;
+        margin:0 auto;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+    }
+
+    #discover section{
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows:1fr;
+    }
+
+    #discover section div{
+        grid-template-columns:1fr;
+        grid-template-rows:1fr;
+    }
+/* 
+    #discover p{
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+    } */
+
+    
+
+    
 }
 
 
