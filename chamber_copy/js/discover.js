@@ -74,7 +74,7 @@ localStorage.setItem('msg1', 'Hello Permanent');
 localStorage.setItem('visit', Date.now());
 sessionStorage.setItem('msg2', 'Hi Temporary');
 
-let message = localStorage.getItem('msg1');
+let msg = localStorage.getItem('msg1');
 let visitDate = localStorage.getItem('visitDate');
 console.log(visitDate);
 
