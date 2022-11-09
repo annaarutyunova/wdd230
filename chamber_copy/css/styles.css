@@ -619,8 +619,8 @@ main img{
     }
 
     #logo_link{
-        margin:auto;
-        padding-right:50px
+        margin:0;
+        padding-right:0;
     }
 
     #hero-msg{
@@ -635,7 +635,7 @@ main img{
 
     header{
         display:flex;  
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0px;
         margin:30px 15px;
         background-color: transparent;
