@@ -95,3 +95,4 @@ console.log(visitDate);
 
 // let prevDate = 
 // let currentDate = Date.now();
+`Welcome back ${firstName}! You last visited on <date>${lvdate}</date>.`;
