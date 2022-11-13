@@ -1,0 +1,89 @@
+{
+    "businesses": [
+        {
+            "name": "Keller Investment Properties",
+            "imageurl": "https://static.showit.co/400/fdO87hzRS3G-HsOjL4L0Wg/149493/kip_logo.png",
+            "siteurl": "https://kellerinvestmentproperties.com/",
+            "address": "500 N Marketplace Dr #101 Centerville, UT 84014",
+            "phone": "1-801-773-8629"
+        },
+        {
+            "name": "Mountain America Credit Union",
+            "imageurl": "https://www.freelogovectors.net/wp-content/uploads/2021/10/mountain-america-credit-union-logo-freelogovectors.net_.png",
+            "siteurl": "https://www.macu.com/",
+            "address": "Mountain America Credit Union, P.O. Box 2331, Sandy, UT 84091",
+            "phone": "1-800-748-4302"
+        },
+        {
+            "name": "Rocky Mountain Power",
+            "imageurl": "https://bloximages.chicago2.vip.townnews.com/wyomingnews.com/content/tncms/assets/v3/editorial/9/98/998a3455-5f32-5edd-aed4-80c91f9ffd15/5f22f0e1f0ada.image.png",
+            "siteurl": "https://www.rockymountainpower.net/",
+            "address": "1407 W North Temple Salt Lake City, UT 84116",
+            "phone": "1-877-508-5088"
+        },
+        {
+            "name": "Zions Bank",
+            "imageurl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreebiesupply.com%2Flogos%2Fzions-bank-logo%2F&psig=AOvVaw3KTxn9IKrybTDLjecNuPcr&ust=1668382521031000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIDks6_nqfsCFQAAAAAdAAAAABAD",
+            "siteurl": "https://www.zionsbank.com/",
+            "address": "Zions Bank P.O. Box 30709. Salt Lake City, UT 84130",
+            "phone": "1-888-307-3411"
+        },
+        {
+            "name": "Gardner Company",
+            "imageurl": "https://slchamber.com/wp-content/uploads/2022/05/1-400x197.jpg",
+            "siteurl": "https://gardnergroup.com/",
+            "address": "201 South Main St, Suite 2000 Salt Lake City, UT 84111",
+            "phone": "1-801-456-4140"
+        },
+        {
+            "name": "Intermountain Healthcare",
+            "imageurl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Intermountain_Healthcare_2005_logo.svg/1200px-Intermountain_Healthcare_2005_logo.svg.png",
+            "siteurl": "https://intermountainhealthcare.org/",
+            "address": "36 S State St fl 22, Salt Lake City, UT 84103",
+            "phone": "1-833-442-2211"
+        },
+        {
+            "name": "Rio Tinto",
+            "imageurl": "https://download.logo.wine/logo/Rio_Tinto_(corporation)/Rio_Tinto_(corporation)-Logo.wine.png",
+            "siteurl": "https://www.riotinto.com/en",
+            "address": "2640 W 1700 S, Salt Lake City, UT 84104",
+            "phone": "1-801-204-2000"
+        },
+        {
+            "name": "Semnani Family Foundation",
+            "imageurl": "https://thepowerofkind.org/wp-content/uploads/2022/04/semnani-foundation-logo@2x.png",
+            "siteurl": "https://semnanifamilyfoundation.org/",
+            "address": "P.O. Box 11623 Salt Lake City, UT 84147",
+            "phone": "1-801-321-7725"
+        },
+        {
+            "name": "CBRE",
+            "imageurl": "https://download.logo.wine/logo/CBRE_Group/CBRE_Group-Logo.wine.png",
+            "siteurl": "https://www.cbre.com/",
+            "address": "222 Main St 4th Floor, Salt Lake City, UT 84101",
+            "phone": "1-214-979-6100"
+        },
+        {
+            "name": "Dominion Energy",
+            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Dominion_Energy_logo.svg/2560px-Dominion_Energy_logo.svg.png",
+            "siteurl": "https://www.dominionenergy.com/",
+            "address": "333 State St, Salt Lake City, UT 84111",
+            "phone": "1-800-323-5517"
+        },
+        {
+            "name": "Target River",
+            "imageurl": "https://qph.cf2.quoracdn.net/main-qimg-4350175bc5d61b92002b27bfa8d12258",
+            "siteurl": "https://targetriver.com/",
+            "address": "222 S. Main Street, Floor 5, Salt Lake City, UT 84101",
+            "phone": "1-801-877-3045"
+        },
+        {
+            "name": "The Larry H. Miller Company",
+            "imageurl": "https://pictures.dealer.com/l/lhmcdjbount/0183/461a31b7ac555cb0d912fdd6fb859805x.jpg?impolicy=downsize&w=568",
+            "siteurl": "https://www.lhm.com/",
+            "address": "1340 500 W, Salt Lake City, UT 84115",
+            "phone": "1-801-783-4473"
+        }
+    ]
+}
+
