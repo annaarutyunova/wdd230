@@ -388,8 +388,13 @@ main img{
     margin:0 auto;
 }
 
-#directory div {
-    
+#directory div img{
+    display:block;
+    margin:0 auto;
+}
+
+#directory div h2, #directory div p{
+    text-align:center;
 }
 
 
