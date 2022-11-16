@@ -38,14 +38,24 @@ placeholder.forEach(item => {
 
 
 // Local Storage
+if(!localStorage.getItem('lastvisit')){
+    localStorage.getItem('lastvisit', Date.now());
+    document.getElementById('diff').textContent = 'This is your 1st visit';
+} else{
+    setStyles();
+}
 
-localStorage.setItem('msg1', 'Hello Permanent');
-localStorage.setItem('visit', Date.now());
-sessionStorage.setItem('msg2', 'Hi Temporary');
+function setStyles(){
+    let prevDate = localStorage.getItem('lastvisit');
+    let currentDate = Data.now();
 
-let message = localStorage.getItem('msg1');
-let visitDate = localStorage.getItem('visitDate');
-console.log(visitDate);
+    let difference = currentDate - prevDate;
+        console.log(difference);
+        let daysDifference = Math.floor(difference/1000/60/60/24);
+    document.getElementById('diff').textContent(daysDifference);
+    localStorage.setItem('lastvisit', Date.now());
+
+}
 
 
 // Difference in day between two dates (or last time they visited)

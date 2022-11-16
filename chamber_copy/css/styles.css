@@ -382,6 +382,18 @@ main img{
     margin:5px;
 }
 
+#directory{
+    display:grid;
+    width:96%;
+    margin:0 auto;
+}
+
+#directory div {
+    
+}
+
+
+
 
 
 /* MEDIUM SCREEN */
