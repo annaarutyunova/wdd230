@@ -70,29 +70,21 @@ placeholder.forEach(item => {
 
 // Local Storage
 
-localStorage.setItem('msg1', 'Hello Permanent');
-localStorage.setItem('visit', Date.now());
-sessionStorage.setItem('msg2', 'Hi Temporary');
+if(!localStorage.getItem('lastvisit')){
+    localStorage.getItem('lastvisit', Date.now());
+    document.getElementById('diff').textContent = 'This is your 1st visit';
+} else{
+    setStyles();
+}
 
-let msg = localStorage.getItem('msg1');
-let visitDate = localStorage.getItem('visitDate');
-console.log(visitDate);
+function setStyles(){
+    let prevDate = localStorage.getItem('lastvisit');
+    let currentDate = Data.now();
 
+    let difference = currentDate - prevDate;
+        console.log(difference);
+        let daysDifference = Math.floor(difference/1000/60/60/24);
+    document.getElementById('diff').textContent(daysDifference);
+    localStorage.setItem('lastvisit', Date.now());
 
-// Difference in day between two dates (or last time they visited)
-
-// if(!something in local storage){
-// set localstorage today's date
-// "This is your 1st visit"
-// }
-// else{
-// get locatlstorage value
-// subtract 2 dates today and previous storage
-// set thenewdate in local storage
-// }
-
-
-
-// let prevDate = 
-// let currentDate = Date.now();
-`Welcome back ${firstName}! You last visited on <date>${lvdate}</date>.`;
+}
