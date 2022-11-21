@@ -397,6 +397,39 @@ main img{
     text-align:center;
 }
 
+#joinpage{
+    display:grid;
+    grid-template-columns: 1fr;
+    margin:5px;
+    line-height:1.3;
+}
+#form{
+    text-align:left;
+    width:100%;
+}
+
+#form input[type=text], #form input[type=email], #form input[type=phone]{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#form textarea{
+    width:100%;
+}
+
+#form input[type=submit]{
+    display:block;
+    margin:0 auto;
+}
+
+#form input{
+    margin-bottom:15px;
+}
+
+
+
+
+
 
 
 
