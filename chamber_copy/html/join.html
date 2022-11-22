@@ -27,7 +27,6 @@
                     <li id="navigation" class="bold"><a href="./discover.html">Discover</a></li>
                     <li id="navigation" class="active bold"><a href='./join.html'>Join</a></li>
                     <li id="navigation" class="bold"><a href="directory.html">Directory</a></li>
-                    <li id="navigation" class="bold"><a href="typography.html">Membership</a></li>
                 </ul>
             </nav>
     </header>
@@ -35,15 +34,15 @@
         <div id="form">
             <form class="regular" method="get" action="thankyou.html">
                 <label for="fname">First Name*</label><br>
-                <input id="fname" type="text" name="firstname" required><br>
+                <input id="fname" type="text" name="firstname" placeholder="..." required><br>
                 <label for="fname">Last Name*</label><br>
-                <input id="fname" type="text" name="firstname" required><br>
+                <input id="fname" type="text" name="firstname" placeholder="..." required><br>
                 <label for="title">Business Position Title*<br> (Only letter, spaces, and dashes at least 7 characters):</label><br>
-                <input required id="title" name="title" type="text" pattern="[- A-Za-z]+" minlength="7"><br>
+                <input required id="title" name="title" type="text" pattern="[- A-Za-z]+" minlength="7" placeholder="..."><br>
                 <label for="email">Email:</label><br>
-                <input type="email" type="email" name="email" required></inputtype><br>
+                <input type="email" type="email" name="email" required placeholder="example@gmail.com"></inputtype><br>
                 <label for="phone">Cell Number*</label><br>
-                <input type="phone" type="phone" name="cell" required></inputtype><br>
+                <input type="phone" type="phone" name="cell" required placeholder="..."></inputtype><br>
         
                 <laber id="member">Enter Your Memebership* </laber>
                 <div id="radio">
@@ -60,17 +59,25 @@
                     <label for="four">Gold</label><br>
                 </div>
         
-                <label for="message">Business Description:</label><br>
-                <textarea id="message" placeholder="your biz description here"></textarea><br>
-        
-                <input id="date" type="hidden" name="todaydate">
-        
+                <label id="msglabel"for="bizdescription">Business Description:</label><br>
+                <textarea id="bizdescription" placeholder="Your business description"></textarea><br>
+                <!-- <input id="date" type="hidden" name="todaydate"> -->
                 <input class="button" type="submit" value="Join the Chamber">
-            </form>
+                </form>
         </div>
-        <div id="membership"></div>
+        <div id="membership">
+            <h1 class="bold">Membership Levels Benefits</h1>
+            <h2 class="bold">NP Membership</h2>
+            <p class="regular"><i class="fa-solid fa-diamond"></i>For non profit organizations and there is no fee</p>
+            <h2 class="bold">Bronze Membership</h2>
+            <p class="regular"><i class="fa-solid fa-diamond bronze"></i>15% discount on events<br><i class="fa-solid fa-diamond bronze"></i>10% discount on advertising<br><i class="fa-solid fa-diamond bronze"></i>Fee of $50/month</p>
+            <h2 class="bold">Silver Membership</h2>
+            <p class="regular"><i class="fa-solid fa-diamond silver"></i>25% discount on events<br><i class="fa-solid fa-diamond silver"></i>15% discount on advertising<br><i class="fa-solid fa-diamond silver"></i>Free participation in the trade fair<br><i class="fa-solid fa-diamond silver"></i>Fee of $100/month</p>
+            <h2 class="bold">Gold Membership</h2>
+            <p class="regular"><i class="fa-solid fa-diamond gold "></i>50% discount on events<br><i class="fa-solid fa-diamond gold"></i>50% discount on advertising<br><i class="fa-solid fa-diamond gold"></i>Free participation in the trade fair<br><i class="fa-solid fa-diamond gold"></i>5 free featured ads per year<br><i class="fa-solid fa-diamond gold"></i>1 free training per quarter<br><i class="fa-solid fa-diamond gold"></i>Fee of $250/month</p>
+        </div>
     </main>
-    <footer>
+    <footer id="joinfooter">
         <div>
             <p class="footer"><span class="year footer"></span> | Anna Arutyunova | Rexburg | WDD 230</p>
         <!-- Javascript goes in <span> -->
