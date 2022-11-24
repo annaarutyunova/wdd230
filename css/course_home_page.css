@@ -1,6 +1,6 @@
 body{
     /* margin:20px 300px 0 300px; */
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -28,6 +28,7 @@ img{
 main h2{
     text-align:center;
     border-bottom:1px solid rgb(74, 74, 74);
+    font-size: 2em;
 }
 main p{
     border-top:1px solid rgb(74, 74, 74);
@@ -52,4 +53,7 @@ footer div{
 
 .yellow{
     color:rgb(228, 228, 3);
+}
+ul li{
+    font-size: 2em;
 }
