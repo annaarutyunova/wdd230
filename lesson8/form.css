@@ -9,6 +9,7 @@ table{
 
 thead th, tfoot td{
     background-color: pink;
+    text-align: center;
 }
 
 td, th{

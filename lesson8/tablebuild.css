@@ -4,7 +4,8 @@ table{
 }
 
 thead th, tfoot td{
-    background-color: pink;
+    background-color: rgb(80, 77, 77);
+    color:white;
 }
 
 td, th{
@@ -13,10 +14,36 @@ td, th{
 }
 
 table, td, th{
-    border: 1px solid black;
-    border-collapse: collapse;
+    border: 1px solid grey;
 }
 
-tbody tr:nth-child(3), td:first-child{
+.bf{
     font-style:italic;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(198, 192, 192);
+}
+tbody tr:nth-child(1){
+    font-weight: bold;
+    background-color: rosybrown;
+    color:black;
+}
+
+table{
+    text-align:center;
+    font-family:"Ubuntu", sans-serif;
+}
+
+thead{
+    font-size:1.3em;
+}
+
+tfoot{
+    font-size: 0.6em;
+}
+
+.hl{
+    background-color: rgb(80, 77, 77);
+    color:white;
 }
