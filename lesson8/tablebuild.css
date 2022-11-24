@@ -1,0 +1,22 @@
+table{
+    width:600px;
+    margin:0 auto;
+}
+
+thead th, tfoot td{
+    background-color: pink;
+}
+
+td, th{
+    padding:10px;
+    font-size:2em;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(3), td:first-child{
+    font-style:italic;
+}
