@@ -26,8 +26,10 @@ function displayBusinesses(item){
 }
 
 function displayBusList(item){
-    let table = document.createElement('table');
-    let tbody = document.createElement('tbody');
+    // let table = document.createElement('table');
+    // let tbody = document.createElement('tbody');
+    let table = document.querySelector('table');
+    let tbody = document.querySelector('tbody');
     let row = document.createElement('tr');
     let name = document.createElement('td');
     let address = document.createElement('td');
@@ -44,8 +46,10 @@ function displayBusList(item){
     row.appendChild(phone);
     row.appendChild(site);
     tbody.appendChild(row);
-    table.appendChild(tbody); 
-    document.getElementById('directory').appendChild(table); 
+    table.appendChild(tbody);
+
+    
+    document.getElementById('directory').appendChild(row); 
 }
 
 async function getBusiness(requestURL){

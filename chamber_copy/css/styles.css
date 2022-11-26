@@ -514,9 +514,9 @@ main img{
 }
 
 h1.bold{
-    font-size:1.8em;
+    font-size:1.6em;
     width:95%;
-    margin:30px auto;
+    margin:3px auto;
 }
 
 #table, #list{
@@ -533,7 +533,14 @@ h1.bold{
 
 #buttons{
     text-align: center;
-    margin-bottom:20px;
+    margin-bottom:30px;
+}
+
+table{
+    width:200px;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(198, 192, 192);
 }
 
 
@@ -628,8 +635,9 @@ h1.bold{
         width:80%;
     }
 
-    #join{
+    #join p{
         grid-column: 1;
+        padding:30px 10px;
     }
 
     /* #join:hover{
@@ -834,7 +842,9 @@ h1.bold{
     }
 
     #weather{
-        display:none;
+        position:absolute;
+        right:500px;
+        top:400px;
     }
 
     #release{
@@ -928,7 +938,7 @@ h1.bold{
     h1.bold{
         font-size:1.8em;
         width:95%;
-        margin:0 auto 40px;
+        margin:0 auto 30px;
     }
     
 }
