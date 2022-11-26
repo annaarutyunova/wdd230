@@ -499,6 +499,43 @@ main img{
     font-size:2em;
 }
 
+/* DIRECTORY PAGE */
+#directory{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:400;
+    font-size:1em;
+    line-height:1.4em;
+}
+#directory div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1.bold{
+    font-size:1.8em;
+    width:95%;
+    margin:30px auto;
+}
+
+#table, #list{
+    font-size:2.4em;
+    margin:0 10px;
+    background-color: white;
+    border-radius: 15%;
+    display:inline;
+    text-align: center;
+}
+#table i, #list i{
+    margin:5px;
+}
+
+#buttons{
+    text-align: center;
+    margin-bottom:20px;
+}
+
 
 
 /* MEDIUM SCREEN */
@@ -705,6 +742,12 @@ main img{
 
    #form .button{
     font-size:1em;
+   }
+
+   #directory{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
     
 }
@@ -725,7 +768,8 @@ main img{
         display:inline;
         color:white;
         font-size:1.8em;
-        text-align:center;    
+        text-align:center;  
+        padding: 4px;
     }
 
     header{
@@ -830,6 +874,11 @@ main img{
         display:none;
     }
 
+    #join, #spot, #event, #release, #spot1, #spot2, #spot3{
+        background-color: #EDF2F4;
+    }
+    
+
     /* DISCOVER PAGE */
     #discover{
         /* column-count: 3; */
@@ -869,6 +918,17 @@ main img{
         padding-bottom:0;
         margin-bottom:0;
         width:100%;
+    }
+    #directory{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    h1.bold{
+        font-size:1.8em;
+        width:95%;
+        margin:0 auto 40px;
     }
     
 }
