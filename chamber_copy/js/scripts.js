@@ -27,9 +27,9 @@ x.onclick = toggleMenu;
 let day = date.getDay();
 let message = document.getElementById("message");
 if(day == 1){
-    message.style.display == "block";
-    day = "Monday";
-    document.getElementById("day").textContent = day; 
+    // message.style.display == "block";
+    // day = "Monday";
+    // document.getElementById("day").textContent = day; 
 }
 else if(day == 2){
     day = "Wednesday";
