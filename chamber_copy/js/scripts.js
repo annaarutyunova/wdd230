@@ -27,19 +27,19 @@ x.onclick = toggleMenu;
 let day = date.getDay();
 let message = document.getElementById("message");
 if(day == 1){
-    // message.style.display == "block";
-    // day = "Monday";
-    // document.getElementById("day").textContent = day; 
+    message.style.display == "block";
+    day = "Monday";
+    document.getElementById("day").textContent = day; 
 }
 else if(day == 2){
     day = "Wednesday";
     document.getElementById("day").textContent = day; 
 }
-// else  //if(day ==  0 || day == 3 || day == 4 || day == 5 || day == 6)//
-// {
+else  //if(day ==  0 || day == 3 || day == 4 || day == 5 || day == 6)//
+{
     
-//     document.getElementById("message").style.display = "none"; 
-// }
+    document.getElementById("message").style.display = "none"; 
+}
 
 
 

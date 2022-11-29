@@ -9,20 +9,23 @@ function displayBusinesses(item){
     let image = document.createElement('img');
     let phone = document.createElement('p');
     let address = document.createElement('p');
-    let siteurl = document.createElement('p');
+    let siteurlp = document.createElement('p');
+    let siteurl = document.createElement('a');
     console.log({item})
     name.textContent = item.name;
     image.setAttribute('src', item.imageurl);
     image.setAttribute('alt', item.name);
     phone.textContent = item.phone;
     address.textContent = item.address;
-    siteurl.textContent = item.siteurl;
+    siteurl.setAttribute('href', item.siteurl);
+    siteurl.textContent = "Visit Website"
 
     business.appendChild(name);
     business.appendChild(image);
     business.appendChild(phone);
     business.appendChild(address);
-    business.appendChild(siteurl);
+    business.appendChild(siteurlp);
+    siteurlp.appendChild(siteurl);
     document.getElementById('directory').appendChild(business);
 }
 
@@ -35,16 +38,19 @@ function displayBusList(item){
     let name = document.createElement('td');
     let address = document.createElement('td');
     let phone = document.createElement('td');
+    let siteurl = document.createElement('a')
     let site = document.createElement('td');
     console.log({item});
     name.textContent = item.name;
     address.textContent = item.address;
     phone.textContent = item.phone;
-    site.textContent = item.siteurl;
+    siteurl.setAttribute('href', item.siteurl)
+    site.textContent = "Visit Website";
 
     row.appendChild(name);
     row.appendChild(address);
     row.appendChild(phone);
+    site.appendChild(siteurl);
     row.appendChild(site);
     // tbody.appendChild(row);
     table.appendChild(row);
