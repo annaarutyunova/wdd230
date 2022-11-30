@@ -1,0 +1,264 @@
+/* Small screen css */
+body{
+    width:fit-content
+}
+
+nav a{
+    text-decoration: none;
+    color: #001F3F;
+    font-size: 0.9em;
+    margin-right:8px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 3%; */
+}
+
+#home_page_header img{
+    max-width:90px;
+    margin:0 auto;
+}
+
+nav a:hover{
+    border-bottom:3px solid #001F3F;
+}
+#logo_link:hover{
+    border-bottom:none;
+}
+
+.home_page_video {
+    justify-self: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+.home_grid {
+    display:grid;
+    grid-template-columns: 1fr;
+    /* border: 3px solid #001F3F; */
+    margin:0
+}
+
+.bold{
+    padding:10px;
+    margin:0;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    color: rgb(0,31,63);
+}
+
+.light{
+    padding-left:10px;
+    padding-right:10px;
+    color: rgb(0,31,63);
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+}
+
+.home_grid_right .light{
+    line-height: 1.6;
+}
+
+/* <video> tag */
+#myVideo{  
+    object-fit: cover;
+    object-position: top;
+    width:100%;
+    margin:auto;
+    
+}
+
+#logopic{
+    width:200px;
+}
+
+
+footer{
+    display:flex;
+    background-color: rgb(0,31,63, 0.2);
+    color: rgb(0,31,63);
+    font-size:0.6em;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    position:relative;
+    width:100%;
+    margin:auto;
+}
+
+footer div{
+    margin:auto;
+    text-align: center;
+}
+
+
+/* audience page css */
+#bman{
+    display:block;
+    width:95%;
+    margin:0 auto;
+}
+
+#bwoman{
+    display:block;
+    width:95%;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+
+/* colors page css */
+#colors{
+    width:85%;
+    margin:0 auto;
+}
+
+#colors img{
+    margin-bottom: 40px;
+}
+
+
+/* typography page css */
+
+#typographyb main, footer{
+    width:100%;
+}
+
+#typographyb p{
+    text-align: center;
+    line-height:2;
+}
+
+
+
+
+/* medium screen */
+@media only screen and (min-width:750px){
+    nav a{
+        font-size: 1.8em;
+    }
+    
+    nav{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 4%;
+    }
+    
+    #home_page_header img{
+        max-width:280px;
+    }
+    
+    #myVideo{
+        width:100%;
+        margin:0 auto;  
+    }
+
+    .home_grid p, h3{
+        font-size:1.6em;
+        line-height: 1.8;
+    }
+    .home_grid{
+        grid-template-columns: 1fr 1fr;
+        margin: auto
+    }
+
+    
+    #myVideo {
+        object-fit: cover;
+        object-position: top;
+        width:100%;
+        margin:auto;
+        
+    }
+
+    footer{
+        font-size: 1.3em;
+
+    }
+    
+    /* audience page css */
+    #audience{
+        font-size:1.6em;
+        width:85%;
+        margin:0 auto;
+    }
+    #audience .light{
+        line-height: 1.8;
+    }
+
+   #personas{
+        width:95%;
+        margin:0 auto;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+   }
+
+   #bman, #bwoman{
+        display:block;
+        width:90%;
+   }
+
+   #personas .light{
+        color: rgb(0,31,63);
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 300;
+        font-size:1.6em;
+   }
+
+   #colors{
+        margin: 80px;
+   }
+
+   #colors .bold{
+    font-size: 1.6em;
+    margin-bottom: 80px;
+    text-align: center;
+   }
+
+   #colorimg{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:1fr 1fr;
+   }
+
+   #colorimg p{
+    font-size: 1.4em;
+   }
+
+   #colorsbody{
+    width:100%;
+   }
+   
+   .light1, .light2, .light3{
+    padding-left:10px;
+    padding-right:10px;
+    color: rgb(0,31,63);
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    grid-row: 2;
+    text-align: center;
+   }
+
+   #colorimg img{
+    display: block;
+    margin: 50px auto;
+   }
+
+   #typographyb{
+    width:100%;
+}
+
+    #typographyb main p{
+    text-align: center;
+    line-height:2;
+    font-size:1.5em;
+}
+
+
+}
