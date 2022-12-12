@@ -1,0 +1,115 @@
+/* SMALL SCREEN */
+.bold{
+    color:white;
+    text-decoration:none;
+}
+
+
+#homebody{
+    background-color: white;
+}
+
+#topblock{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.logoblock{
+    width:120px;
+    margin:0 auto;
+}
+
+.logo{
+    width:100%;
+    border-radius:50%;
+}
+
+#menu li{
+    text-decoration: none;
+    padding-left:0;
+    margin-left:0;
+}
+
+#menu{
+    padding-left:0;
+    margin-left:0;
+}
+
+/* w3schools */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+ span{
+    display:block;
+    margin: 0 auto;
+    text-align:center
+ }
+
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+
+
+/* MEDIUM SCREEN */
+@media only screen and (min-width: 45em){
+    .logoblock{
+        width:150px;
+        margin:0 auto;
+    }
+}
+
+
+
+/* LARGE SCREEN */
+@media only screen and (min-width: 75em){}
+
+#menu li:nth-of-type(2){
+    font-size:50px;
+    background-color: #777777;
+}

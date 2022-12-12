@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body id="homebody">
+    <div id='topblock'>
+        <div class="logoblock">
+            <video autoplay muted loop class="logo">
+                <source src="./images/cat.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- <button id="hamburgerBtn">&#9776;</button> -->
+    </div>
+    <!-- <button id="hamburgerBtn">&#9776;</button> -->
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a class="bold" href="index.html">Home</a>
+            <a class="bold" href="html/viewcat.html">Cats</a>
+            <a class="bold" href="html/quiz.html">Quiz</a>
+            <a class="bold" href="html/generatecat.html">Generate</a>
+            <a class="bold" href="html/addcat.html">Add a Cat</a>
+            <a class="bold" href="html/policy.html">Policy</a>
+        </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script src="scripts.js"></script>
+</body>
+</html>
