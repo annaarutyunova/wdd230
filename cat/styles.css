@@ -109,22 +109,25 @@ footer i{
     text-align:center;
  }
 
-  @media screen and (max-height: 450px) {
+  /* @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
     font-size: 40px;
     top: 15px;
     right: 35px;
     }
-  }
+  } */
 /* end of w3schools */
 
 
 /* Nice vs Naughty Cats */
+#niceNaughty{
+  display:grid;
+  grid-template-columns: 1fr;
+}
 #niceCat, #naughtyCat{
   width:95%;
   margin:0 auto;
-  position:relative;
 }
 #niceCat img, #naughtyCat img{
   width:100%;
@@ -136,6 +139,7 @@ footer i{
   font-size:1.4em;
   margin-top:0;
   padding: 0 10px;
+  background-color: none;
 }
 
 #niceCat h2, #naughtyCat h2{
@@ -145,7 +149,7 @@ footer i{
 /* MEDIUM SCREEN */
 @media only screen and (min-width: 45em){
     .logoblock{
-        width:150px;
+        width:180px;
         margin:0 auto;
     }
 
@@ -187,14 +191,105 @@ footer i{
    span{
       display:none;
    }
+
+    #niceNaughty{
+      margin:20px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    #niceCat, #naughtyCat{
+      width:80%;
+      margin:0 auto;
+    }
+
+    #niceCat:hover, #naughtyCat:hover{
+      width:80%;
+      margin:0 auto;
+      -ms-transform: scale(1.05); /* IE 9 */
+      -webkit-transform: scale(1.05); /* Safari 3-8 */
+      transform: scale(1.05); 
+    }
+
+    #niceCat img, #naughtyCat img{
+      width:100%;
+      border-radius: 10px;
+    }
+
+    #niceCat p, #naughtyCat p{
+      background-color: transparent;
+      font-size:1.8em;
+      margin-top:20px;
+      padding: 0 10px;
+      padding:20px;
+    }
+    
+    #niceCat h2, #naughtyCat h2{
+      text-align: left;
+      font-size:2em;
+      padding: 0 10px;
+    }
+
+    footer{
+      margin-top:70px;
+      font-size:1.8em;
+    }
+  
 }
 
 
 
 /* LARGE SCREEN */
-@media only screen and (min-width: 75em){}
-
+@media only screen and (min-width: 75em){
+  #niceNaughty{
+    margin:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #niceCat, #naughtyCat{
+    width:80%;
+    margin:0 auto;
+    position:relative;
+  }
+  
+  #niceCat:hover, #naughtyCat:hover{
+    width:80%;
+    margin:0 auto;
+    position:relative;
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+  }
+  
+  #niceCat img, #naughtyCat img{
+    width:100%;
+    border-radius: 10px;
+  }
+  
+  #niceCat p, #naughtyCat p{
+    font-size:1.8em;
+    margin-top:20px;
+    padding: 0 10px;
+    position:absolute;
+    z-index:2;
+    bottom:5px;
+    background:#e1e1e1;
+    padding:20px;
+  }
+  
+  #niceCat h2, #naughtyCat h2{
+    text-align: left;
+    font-size:2em;
+    padding: 0 10px;
+  }
+  
+  footer{
+    margin-top:70px;
+    font-size:1.8em;
+  }
+}
+/* 
 #menu li:nth-of-type(2){
     font-size:50px;
     background-color: #777777;
-}
+} */
+
