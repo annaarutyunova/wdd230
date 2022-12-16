@@ -1,12 +1,36 @@
 /* SMALL SCREEN */
 .bold{
-    color:white;
-    text-decoration:none;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 700;
+  text-decoration:none;
+}
+.semibold{
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
+  text-decoration:none;
+}
+
+.regular{
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  text-decoration:none;
 }
 
 #homebody{
   background-image: url(images/background.jpg);
   background-repeat: repeat;
+}
+
+footer{
+  color:black;
+  text-align: center;
+  padding: 20px;
+  background-color:lightblue;
+  margin:0
+}
+footer i{
+  padding:0 10px
 }
 
 #topblock{
@@ -81,8 +105,8 @@
 
  span{
     display:block;
-    margin: 0 auto;
-    text-align:center
+    margin: 20px auto 0 auto;
+    text-align:center;
  }
 
   @media screen and (max-height: 450px) {
@@ -96,6 +120,27 @@
 /* end of w3schools */
 
 
+/* Nice vs Naughty Cats */
+#niceCat, #naughtyCat{
+  width:95%;
+  margin:0 auto;
+  position:relative;
+}
+#niceCat img, #naughtyCat img{
+  width:100%;
+  border-radius: 10px;
+  
+}
+
+#niceCat p, #naughtyCat p{
+  font-size:1.4em;
+  margin-top:0;
+  padding: 0 10px;
+}
+
+#niceCat h2, #naughtyCat h2{
+  text-align: center;
+}
 
 /* MEDIUM SCREEN */
 @media only screen and (min-width: 45em){
