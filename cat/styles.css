@@ -4,7 +4,6 @@
     text-decoration:none;
 }
 
-
 #homebody{
   background-image: url(images/background.jpg);
   background-repeat: repeat;
@@ -63,13 +62,14 @@
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #e1e1e1;
     display: block;
     transition: 0.3s;
   }
   
   .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    /* color: #f1f1f1; */
+    color: #818181;
   }
   
   .overlay .closebtn {
@@ -93,7 +93,7 @@
     right: 35px;
     }
   }
-
+/* end of w3schools */
 
 
 
@@ -103,6 +103,45 @@
         width:150px;
         margin:0 auto;
     }
+
+    .overlay {
+      height: auto;
+      width: 100%;
+      position:static;
+      z-index: 1;
+      background-color: transparent;
+      overflow-x:visible;
+      transition: none;
+    }
+    
+    .overlay-content {
+      display:flex;
+      justify-content: space-evenly;
+      width: 100%;
+      margin-top: 30px;
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 2.4em;
+      color: black;
+      transition: 0.3s;
+      display:inline;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      /* color: #f1f1f1; */
+      color: #919191;
+    }
+    
+    .overlay .closebtn {
+      display:none;
+    }
+  
+   span{
+      display:none;
+   }
 }
 
 
