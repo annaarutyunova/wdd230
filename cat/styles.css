@@ -6,7 +6,8 @@
 
 
 #homebody{
-    background-color: white;
+  background-image: url(images/background.jpg);
+  background-repeat: repeat;
 }
 
 #topblock{

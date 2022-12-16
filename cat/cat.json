@@ -1,0 +1,10 @@
+{
+    "cats": [
+        {
+        "breed": "American Shorthair",
+        "image": "https://www.litter-robot.com/media/magefan_blog/american-shorthair6.png",
+        "color": "beige"
+        }
+
+    ]
+}
