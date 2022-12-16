@@ -151,6 +151,12 @@ footer div{
     text-align:center;
 }
 
+#wireframe{
+    display:block;
+    max-width:800px;
+    text-align: center;
+}
+
 
 
 /* medium screen */
