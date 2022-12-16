@@ -145,6 +145,29 @@ footer i{
 #niceCat h2, #naughtyCat h2{
   text-align: center;
 }
+#thanks{
+  margin:100px;
+  text-align:center;
+}
+#smilingcat{
+  display:block;
+  width:100%;
+  margin:0 auto;
+}
+
+#myFile{
+  width:200px;
+  font-size:1em;
+}
+#addcat input[type=submit]{
+  width:600px;
+}
+
+#breed{
+  background-color:yellow ;
+}
+
+
 
 /* MEDIUM SCREEN */
 @media only screen and (min-width: 45em){

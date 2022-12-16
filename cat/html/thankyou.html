@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 Add a picture of a cat">
-    <title>Add a cat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 Generate a random cat">
+    <title>Thank you for adding a cat picture</title>
     <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -32,23 +32,10 @@
 
     <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
 
+    <h1 id="thanks" class="bold">Thank you for adding your wonderful cat to our collection!</h1>
+    <img id="smilingcat" src="../images/smilingcat.jpg" alt="smiling cat">
 
-    <h2 class="bold">Add a picture of your cat to see it with other cats here</h2>
-    <p class="regular">Click on the "Choose File" button to upload a file:</p>
-
-    <div if="addcat">
-        <form method="get" action="./thankyou.html">
-            <label class="regular" for="breed">Breed*</label><br>
-            <input id="breed" type="text" name="breed" placeholder="..." required><br>
-            <input type="file" id="myFile" name="filename" required>
-            <input type="submit">
-        </form>
-
-    </div>
-
-
- 
-<footer class="regular"><i class="fa-solid fa-paw"></i>“In ancient times cats were worshipped as gods; they have not forgotten this.” – Terry Pratchett</footer>
+<footer class="regular"><i class="fa-solid fa-paw"></i>“There are two means of refuge from the misery of life — music and cats.” ― Albert Schweitzer</footer>
 <script src="../scripts.js"></script>
 </body>
 </html>
