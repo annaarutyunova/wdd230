@@ -4,7 +4,151 @@
         "breed": "American Shorthair",
         "image": "https://www.litter-robot.com/media/magefan_blog/american-shorthair6.png",
         "color": "beige"
-        }
-
+        },
+        {
+            "breed":"British Shorthair",
+            "image":"https://media.kidadl.com/Purrrfect_Facts_About_The_American_Shorthair_Cat_Kids_Will_Love_d62617998c.jpg",
+            "color":"brown"
+        },
+        {
+            "breed":"Turkish Angora",
+            "image":"https://hellobark.com/wp-content/uploads/turkish-angora-cat-1.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"American Shorthair",
+            "image":"https://topdogtips.com/wp-content/uploads/2021/06/american-shorhaired-cat-breed-1021x580.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"Somali",
+            "image":"https://www.purina.co.uk/sites/default/files/2022-06/Somali.jpg?itok=tDNkUIlQ",
+            "color":"red"
+        },
+        {
+            "breed":"Himalayan",
+            "image":"https://www.pumpkin.care/wp-content/uploads/2021/03/Himalayan-Cat-Hero.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"Egyptian Mau",
+            "image":"https://www.litter-robot.com/media/wysiwyg/egyptianmau-cat10.png",
+            "color":"multicolor"
+        },
+        {
+            "breed":"Turkish Angora",
+            "image":"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F10%2F21%2Fturkish-angora-different-colored-eyes-107149842-2000.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"British Shorthair",
+            "image":"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2020%2F08%2F02%2Fwhite-british-shorthair-blue-eyes-1208386991-2000.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"American Shorthair",
+            "image":"https://www.thesprucepets.com/thmb/reqGUcggyMff3id8ycBJB_r_3-g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-925319984-36b97d913d934d229d8b0d528a7da64e.jpg",
+            "color":"beige"
+        },
+        {
+            "breed":"Somali",
+            "image":"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2022%2F04%2F19%2Fsomali-sitting-grey-background-592242308.jpg",
+            "color":"red"
+        },
+        {
+            "breed":"Snowshoe",
+            "image":"https://www.catsalleycattery.com/wp-content/uploads/2020/10/IMG_E8335.jpg",
+            "color":"multicolor"
+        },
+        {
+            "breed":"Himalayan",
+            "image":"https://i.pinimg.com/736x/63/7e/93/637e93686a189b8b4e917a5f99002733--himalayan-persian-cats-himalayan-cat.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"Tonkinese",
+            "image":"https://tonkinese.net/wp-content/uploads/2020/06/cat-siamese-cat-mammal-siamese-vertebrate-small-to-medium-sized-cats-1588635-pxhere.com-1.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"British Shorthair",
+            "image":"https://cf.ltkcdn.net/cats/cat-breeds/images/orig/325977-1600x1063-british-shorthair-cat.jpg",
+            "color":"grey"
+        },
+        {
+            "breed":"American Shorthair",
+            "image":"https://topdogtips.com/wp-content/uploads/2021/06/american-shorhaired-cat-breed-1021x580.jpg",
+            "color":"grey"
+        },
+        {
+            "breed":"Somali",
+            "image":"https://preview.redd.it/931uqqq2gz031.jpg?auto=webp&s=915497bd97fb2d71fbfc2b04f0e7eabf82b9e00f",
+            "color":"red"
+        },
+        {
+            "breed":"Snowshoe",
+            "image":"https://www.rover.com/blog/wp-content/uploads/iStock-1062782600-min-e1641675631907.jpg",
+            "color":"multicolor"
+        },
+        {
+            "breed":"Tonkinese",
+            "image":"https://images.alphacoders.com/449/449536.jpg",
+            "color":"multicolor"
+        },
+        {
+            "breed":"Snowshoe",
+            "image":"https://www.rover.com/blog/wp-content/uploads/iStock-1062782600-min-e1641675631907.jpg",
+            "color":"multicolor"
+        },
+        {
+            "breed":"Turkish Angora",
+            "image":"https://carefreecat.co/wp-content/uploads/2021/04/Turkish-Angora-Cats-feature.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"American Shorthair",
+            "image":"https://www.thegreatcat.org/wp-content/uploads/2020/01/American-Shorthair-Cat-2-1250x834.jpg",
+            "color":"multicolor"
+        },
+        {
+            "breed":"British Shorthair",
+            "image":"https://mybritishshorthair.com/wp-content/uploads/2019/02/55e7d4474252a914f1dc8460962a3f7f1d37d8f85254794e77267ed6914d_640_cat-dog.jpg",
+            "color":"grey"
+        },
+        {
+            "breed":"Somali",
+            "image":"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2022%2F04%2F19%2Fsomali-sitting-looking-left-519247519.jpg",
+            "color":"red"
+        },
+        {
+            "breed":"Himalayan",
+            "image":"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F10%2F14%2Fhimalayan-cream-closeup-989527874-2000.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"Tonkinese",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/b/b7/Tonkinese_Cat_-_Leo.jpg",
+            "color":"white"
+        },
+        {
+            "breed":"British Shorthair",
+            "image":"https://i.pinimg.com/originals/64/01/3d/64013de7ff29f6c60ca3b578cc77eb0d.jpg",
+            "color":"grey"
+        },
+        {
+            "breed":"American Shorthair",
+            "image":"https://blog.mystart.com/wp-content/uploads/MyCats_5734d857e27b998709c9dbd6.jpeg",
+            "color":"grey"
+        },
+        {
+            "breed":"Snowshoe",
+            "image":"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2022%2F01%2F11%2Fsnowshoe-lying-on-pale-blue-blanket-237234821-2000.jpg",
+            "color":"grey"
+        },
+        {
+            "breed":"Turkish Angora",
+            "image":"https://www.everythingturkish.net/wp-content/uploads/2022/04/cat-3593021_1920.jpg",
+            "color":"white"
+        }  
     ]
 }
