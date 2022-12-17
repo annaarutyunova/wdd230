@@ -33,22 +33,29 @@
     <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
 
 
-    <h2 class="bold">Add a picture of your cat to see it with other cats here</h2>
-    <p class="regular">Click on the "Choose File" button to upload a file:</p>
 
-    <div if="addcat">
+    <div id="addcat">
+        <h2 class="bold">Add a picture of your cat to see it with other cats here</h2>
         <form method="get" action="./thankyou.html">
             <label class="regular" for="breed">Breed*</label><br>
-            <input id="breed" type="text" name="breed" placeholder="..." required><br>
+            <input id="breed" type="text" name="breed" placeholder="..." required><br><br>
+            <label class="regular" for="color">Color*</label><br>
+            <select id="catcolors" name="cars" size="3" required>
+                <option value="grey">Grey</option>
+                <option value="white">White</option>
+                <option value="red">Red</option>
+                <option value="multicolor">Multicolor</option>
+              </select><br><br>
+            <!-- <input id="color" type="text" name="color" placeholder="..." required><br> -->
             <input type="file" id="myFile" name="filename" required>
-            <input type="submit">
+            <input type="submit"class="semibold" value = Submit>
         </form>
 
     </div>
 
 
  
-<footer class="regular"><i class="fa-solid fa-paw"></i>“In ancient times cats were worshipped as gods; they have not forgotten this.” – Terry Pratchett</footer>
+<footer id="addcatfooter" class="regular"><i class="fa-solid fa-paw"></i>“In ancient times cats were worshipped as gods; they have not forgotten this.” – Terry Pratchett</footer>
 <script src="../scripts.js"></script>
 </body>
 </html>
