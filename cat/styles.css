@@ -238,6 +238,29 @@ input[type=file]::file-selector-button:hover{
   border-radius: 10px;
 }
 
+#generateMain{
+  display:block;
+  width:100%;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+#generateMain img{
+  width:100%;
+}
+
+#generateCat{
+  text-align: center;
+}
+
+#generateBtn{
+  display:block;
+  margin:20px auto;
+  padding:12px 32px;
+  text-align: center;
+  font-size:1.6em;
+}
+
 
 
 /* MEDIUM SCREEN */
