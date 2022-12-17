@@ -261,6 +261,12 @@ input[type=file]::file-selector-button:hover{
   font-size:1.6em;
 }
 
+#filter-color{
+  height:30px;
+  margin-top:30px;
+  font-size:1.2em;
+}
+
 
 
 /* MEDIUM SCREEN */
@@ -434,7 +440,22 @@ input[type=file]::file-selector-button:hover{
     #viewcatsul img{
       transition: transform 0.25s;
     }
+
+    #generateMain img{
+      width:40%;
+      display:block;
+      margin:0 auto;
+    }
+
+    #generatefooter{
+      margin-top:10px;
+    }
+
+    #thankyoufooter{
+      margin-top:0;
+    }
 }
+
 
 
 
